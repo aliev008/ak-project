@@ -1,10 +1,10 @@
 import "./App.scss";
-import Section1 from "./components/section1/section1";
+import OnePictureBlock from "./components/section1/OnePictureBlock";
 
 function App() {
   return (
     <div className="wrapper">
-      <Section1 />
+      <OnePictureBlock />
     </div>
   );
 }
