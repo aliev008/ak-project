@@ -1,0 +1,27 @@
+.frame-174 {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 9.6rem;
+
+  .btn {
+    width: 19.2rem;
+    height: 5.6rem;
+    border: 1px solid #0079C8;
+    border-radius: 4px;
+    background: transparent;
+    padding: 20px 40px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+    color: #0079C8;
+    margin: 2rem 0;
+    transition: background-color .5s ease-out, color .5s ease-out;
+
+    &:hover {
+      background: #0079C8;
+      color: white;
+      cursor: pointer;
+    }
+  }
+}
