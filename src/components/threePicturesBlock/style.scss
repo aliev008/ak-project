@@ -1,0 +1,19 @@
+.three-picture-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 18.6rem 0 19.4rem;
+  margin-top: 7.2rem;
+
+  .three-picture-block-images {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3.3rem;
+  }
+
+  .three-picture-block-bottom {
+    margin-top: 7.91rem;
+  }
+}

@@ -1,0 +1,72 @@
+.services-block {
+  width: 122.9rem;
+  height: 98.6rem;
+  margin-top: 10rem;
+}
+
+.services-block-grid {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 128rem;
+
+  .item-4 {
+    margin-left: 22.15rem;
+  }
+
+  .item-5 {
+    margin-right: 22.15rem;
+  }
+}
+
+.services-block-grid-item {
+  max-width: 34.3rem;
+
+  img {
+    margin: 11.2rem 0 4.2rem 0;
+  }
+
+  p.title {
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #312E2E;
+    margin-bottom: 2.8rem;
+  }
+
+  p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+    color: #5C5C5C;
+  }
+
+  .services-block-grid-item-button {
+    margin-top: 5.2rem;
+    height: 5.3rem;
+    width: 34.3rem;
+    position: relative;
+    border-top: 1px solid #B3B3B3;
+
+    p {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      color: #4343FF;
+      font-family: 'GalanoGrotesque-Bold', sans-serif;
+      text-align: bottom;
+
+      &:before {
+        content: url('../../assets/cards/Vector.svg');
+      }
+
+      &:after {
+        content: url('../../assets/cards/Vector-1.svg');
+      }
+    }
+  }
+}
