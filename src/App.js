@@ -1,10 +1,12 @@
 import "./App.scss";
-import OnePictureBlock from "./components/section1/OnePictureBlock";
+import OnePictureBlock from "./components/onePictureBlock/onePictureBlock";
+import ThreePicturesBlock from "./components/threePicturesBlock/threePicturesBlock";
 
 function App() {
   return (
     <div className="wrapper">
       <OnePictureBlock />
+      <ThreePicturesBlock />
     </div>
   );
 }
