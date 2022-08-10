@@ -28,7 +28,6 @@
       font-size: 1.6rem;
       line-height: 1.6rem;
       color: #0079C8;
-      // margin: 2rem 0;
       transition: background-color .5s ease-out, color .5s ease-out;
 
       &:hover {
@@ -41,7 +40,6 @@
 
 
   .one_picture_block__right {
-    // max-width: 548px;
     img {
       display: block;
       max-width: 100%;
@@ -51,42 +49,13 @@
 }
 
 @media (max-width: 1115px) {
-  .one_picture_block{
+  .one_picture_block {
     justify-content: center;
     align-items: center;
+
     .one_picture_block__left {
-      // margin: 0;
       margin-bottom: 4em;
-      .one_picture_block__left__text {
-        // width: 100%;
-        // text-align: center;
-      }
     }
   }
 
 }
-
-
-// @media (max-width: 520px) {
-
-//   .one_picture_block {
-//     flex-direction: column;
-//     justify-content: center;
-//     align-items: center;
-//     padding: 0 5em;
-//     max-width: 100%;
-//     .one_picture_block__left {
-//       display: flex;
-//       flex-direction: column;
-//       justify-content: center;
-//       align-items: center;
-//       // max-width: 360px;
-//     }
-//     img {
-//       display: block;
-//       object-fit: contain;
-//       max-width: 100%;
-//       height: auto;
-//     }
-//   }
-// }
