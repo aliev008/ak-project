@@ -9,6 +9,8 @@
   .three_picture_block__images {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     gap: 1rem;
     margin-top: 3.3rem;
 
@@ -18,10 +20,13 @@
 
     img {
       display: block;
-      object-fit: contain;
       max-width: 100%;
-      height: auto;
-      flex: 1;
+      cursor: pointer;
+
+      &:hover {
+        opacity: 0.5;
+        transition: opacity 0.5s ease-out;
+      }
     }
   }
 
@@ -32,8 +37,6 @@
 
 @media (max-width: 923px) {
   .three_picture_block {
-    padding: 3rem;
+    padding: 0 16%;
   }
-
-
 }
