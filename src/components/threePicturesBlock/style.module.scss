@@ -1,18 +1,21 @@
+@use "../../sass/modules/functions" as *;
+@use "../../sass/modules/variables" as *;
+
 .three_picture_block {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 0 18.6rem 0 19.4rem;
-  margin-top: 7.2rem;
+  padding: 0 toRem(186) 0 toRem(194);
+  margin-top: toRem(72);
 
   .three_picture_block__images {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
-    margin-top: 3.3rem;
+    gap: toRem(10);
+    margin-top: toRem(33);
 
     .three_picture_block__header {
       width: 100%;
@@ -31,11 +34,11 @@
   }
 
   .three_picture_block__bottom {
-    margin-top: 7.91rem;
+    margin-top: toRem(79.1)
   }
 }
 
-@media (max-width: 923px) {
+@media (max-width: $screen-lg-min) {
   .three_picture_block {
     padding: 0 16%;
   }

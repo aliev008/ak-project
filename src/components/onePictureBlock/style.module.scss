@@ -1,31 +1,34 @@
+@use "../../sass/modules/functions" as *;
+@use "../../sass/modules/variables" as *;
+
 .one_picture_block {
   display: flex;
   flex-wrap: wrap;
 
   .one_picture_block__left {
-    max-width: 34.4rem;
-    min-height: 19.8rem;
-    margin: 4rem 3.2rem 16.9rem 0;
+    max-width: toRem(344);
+    min-height: toRem(198);
+    margin: toRem(40) toRem(32) toRem(169) 0;
 
     .one_picture_block__left__text {
-      margin-bottom: 1.5rem;
+      margin-bottom: toRem(15);
 
       h3 {
-        margin-bottom: 1.5rem;
+        margin-bottom: toRem(15);
       }
     }
 
     button {
-      max-width: 19.2rem;
-      min-height: 5.6rem;
-      border: 1px solid #0079C8;
-      border-radius: 4px;
+      max-width: toRem(192);
+      min-height: toRem(56);
+      border: toRem(1) solid #0079C8;
+      border-radius: toRem(4);
       background: transparent;
-      padding: 2rem 4rem;
+      padding: toRem(20) toRem(40);
       font-style: normal;
       font-weight: 600;
-      font-size: 1.6rem;
-      line-height: 1.6rem;
+      font-size: toRem(16);
+      line-height: toRem(16);
       color: #0079C8;
       transition: background-color .5s ease-out, color .5s ease-out;
 
@@ -47,11 +50,11 @@
 
 }
 
-@media (max-width: 923px) {
+@media (max-width: $screen-lg-min) {
   .one_picture_block {
     justify-content: center;
     .one_picture_block__left {
-      max-width: 54.8rem;
+      max-width: toRem(548);
       padding: 0 3%;
       margin-bottom: 4em;
     }
