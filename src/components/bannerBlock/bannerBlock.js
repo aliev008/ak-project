@@ -3,7 +3,7 @@ import style from "./style.module.scss";
 import React from "react";
 
 const BannerBlock = () => (
-  <section className={style.bannerBlock}>
+  <section className={style.banner_block}>
     <div className={style.banner__container}>
       <div className={style.banner__text}>
         <p>The title of the component</p>
