@@ -1,0 +1,78 @@
+@use "../../sass/modules/functions" as *;
+@use "../../sass/modules/variables" as *;
+
+.banner_block {
+  padding: 0 toRem(96);
+  margin-top: toRem(72);
+  color: white;
+}
+
+.banner__container {
+  padding: toRem(40) toRem(50) toRem(30) toRem(50);
+  background-color: #0079C8;
+  border-radius: toRem(4);
+  display: flex;
+  justify-content: space-between;
+
+  h1 {
+    font-size: toRem(35);
+    font-weight: 500;
+    line-height: toRem(44);
+  }
+
+  p {
+    font-size: toRem(20);
+    margin-bottom: toRem(20);
+    font-weight: 500;
+  }
+}
+
+.banner__text {
+  max-width: 57.5%;
+}
+
+.banner__btn {
+  max-width: toRem(261);
+  height: toRem(56);
+  border: none;
+  border-radius: toRem(4);
+  background: white;
+  padding: toRem(20) toRem(40);
+  font-style: normal;
+  font-weight: 600;
+  font-size: toRem(16);
+  line-height: toRem(16);
+  color: #0079C8;
+  margin: toRem(61) 0 0 0;
+  transition: background-color .5s ease-out, color .5s ease-out, border .5s ease-out;
+
+  &:hover {
+    background: transparent;
+    color: white;
+    border: toRem(1) solid white;
+    cursor: pointer;
+    padding: toRem(19) toRem(39);
+  }
+}
+
+@media(max-width: $screen-lg-min) {
+  .banner_block {
+    padding: 0 8.6%;
+  }
+
+  .banner__container {
+    padding: 4.3% 5%;
+    background-color: #0079C8;
+    border-radius: toRem(4);
+    flex-direction: column;
+  }
+
+  .banner__text {
+    max-width: 100%;
+    word-wrap: break-word;
+  }
+
+  .banner__btn {
+    padding: 2.1% 4.3%;
+  }
+}
