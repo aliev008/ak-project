@@ -2,6 +2,7 @@
 @use "../../sass/modules/variables" as *;
 
 .one_picture_block {
+  max-width: toRem(1116);
   display: flex;
   flex-wrap: wrap;
 }

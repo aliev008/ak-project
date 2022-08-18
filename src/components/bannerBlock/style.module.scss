@@ -2,6 +2,7 @@
 @use "../../sass/modules/variables" as *;
 
 .banner_block {
+  max-width: toRem(1116);
   padding: 0 toRem(96);
   margin-top: toRem(72);
   color: white;

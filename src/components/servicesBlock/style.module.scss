@@ -1,6 +1,8 @@
+@use "../../sass/modules/functions" as *;
+@use "../../sass/modules/variables" as *;
+
 .services_block {
-  max-width: 122.9rem;
-  margin-top: 10rem;
+  margin-top: toRem(100);
 }
 
 .services_block__grid {
@@ -8,44 +10,44 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 10rem;
+  gap: toRem(100);
 }
 
-.services_block__grid > * {
+.services_block__grid>* {
   flex: 1 1 33%;
 }
 
 .services_block__card {
-  max-width: 34.3rem;
+  max-width: toRem(343);
 
   img {
-    margin: 11.2rem 0 4.2rem 0;
+    margin: toRem(112) 0 toRem(42) 0;
   }
 
   .services_block__title {
     text-transform: uppercase;
     font-weight: 700;
-    line-height: 23px;
+    line-height: toRem(23);
     text-transform: uppercase;
     color: #312E2E;
-    margin-bottom: 2.8rem;
+    margin-bottom: toRem(28);
   }
 
   p {
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 17px;
-    line-height: 26px;
+    font-size: toRem(17);
+    line-height: toRem(26);
     color: #5C5C5C;
   }
 
   .services_block__button {
-    margin-top: 5.2rem;
-    height: 5.3rem;
-    width: 34.3rem;
+    margin-top: toRem(52);
+    height: toRem(53);
+    width: toRem(343);
     position: relative;
-    border-top: 1px solid #B3B3B3;
+    border-top: toRem(1) solid #B3B3B3;
 
     p {
       position: absolute;
@@ -63,5 +65,12 @@
         content: url('../../assets/cards/Vector-1.svg');
       }
     }
+  }
+}
+
+
+@media (max-width: $screen-lg-min) {
+  .services_block {
+    padding: 0 8%;
   }
 }
