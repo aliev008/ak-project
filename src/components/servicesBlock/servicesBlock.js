@@ -1,4 +1,4 @@
-import "./style.scss";
+import styles from "./style.module.scss";
 
 import React from "react";
 import card1 from "../../assets/cards/Back-end Development-1.svg";
@@ -33,12 +33,12 @@ const ServicesBlock = () => {
   ];
 
   return (
-    <section className="services-block">
-      <div className="services-block-grid">
+    <section className={styles.services_block}>
+      <div className={styles.services_block__grid}>
         {cards.map((elem, index) => (
           <Card
             key={index}
-            className={`services-block-grid-item item-1${index + 1}`}
+            className={styles.services_block__card}
             imgSrc={elem[0]}
             text={elem[1]}
           />

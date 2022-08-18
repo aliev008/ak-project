@@ -1,12 +1,13 @@
 import React from "react";
+import styles from "./style.module.scss";
 
 const Card = (props) => {
   return (
     <div className={props.className}>
-      <img src={props.imgSrc} alt=""></img>
-      <p className="title">Front-end development</p>
+      <img src={props.imgSrc} alt="card-image"></img>
+      <p className={styles.services_block__title}>Front-end development</p>
       <p>{props.text}</p>
-      <div className="services-block-grid-item-button">
+      <div className={styles.services_block__button}>
         <a href="#main" target="_blank">
           <p> Read More /</p>
         </a>
