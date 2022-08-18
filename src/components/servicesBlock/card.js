@@ -4,7 +4,7 @@ import styles from "./style.module.scss";
 const Card = (props) => {
   return (
     <div className={props.className}>
-      <img src={props.imgSrc} alt="card-image"></img>
+      <img src={props.imgSrc} alt="card"></img>
       <p className={styles.services_block__title}>Front-end development</p>
       <p>{props.text}</p>
       <div className={styles.services_block__button}>
