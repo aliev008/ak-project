@@ -9,36 +9,30 @@ import card5 from "../../assets/cards/Back-end Development.svg";
 import Card from "./card";
 
 const ServicesBlock = () => {
-
   const cards = [
     {
       imgSrc: card1,
-      text:
-        "Lorem built ipsum dolor sit amet. Eget vestibulum volutpat id nibh felis dignissim. Aliquet porta ultrices orci metus. Ut aenean pretium. Mollis magna hac amet maecenas mauris malesuada ornare.",
+      text: "Lorem built ipsum dolor sit amet. Eget vestibulum volutpat id nibh felis dignissim. Aliquet porta ultrices orci metus. Ut aenean pretium. Mollis magna hac amet maecenas mauris malesuada ornare.",
     },
 
     {
       imgSrc: card2,
-      text:
-        "Lorem built ipsum dolor sit amet. Eget vestibulum volutpat id nibh felis dignissim. Aliquet porta ultrices orci metus. Ut aenean pretium. Mollis magna hac amet maecenas mauris.",
+      text: "Lorem built ipsum dolor sit amet. Eget vestibulum volutpat id nibh felis dignissim. Aliquet porta ultrices orci metus. Ut aenean pretium. Mollis magna hac amet maecenas mauris.",
     },
 
     {
       imgSrc: card3,
-      text:
-        "Lorem built ipsum dolor sit amet. Eget vestibulum volutpat id nibh felis dignissim. Aliquet porta ultrices orci metus. Ut aenean pretium. Mollis magna hac amet maecenas.",
+      text: "Lorem built ipsum dolor sit amet. Eget vestibulum volutpat id nibh felis dignissim. Aliquet porta ultrices orci metus. Ut aenean pretium. Mollis magna hac amet maecenas.",
     },
 
     {
       imgSrc: card4,
-      text:
-        "Lorem built ipsum dolor sit amet. Eget vestibulum volutpat id nibh felis dignissim. Aliquet porta ultrices orci metus. Ut aenean pretium. Mollis magna hac amet maecenas mauris malesuada ornare.",
+      text: "Lorem built ipsum dolor sit amet. Eget vestibulum volutpat id nibh felis dignissim. Aliquet porta ultrices orci metus. Ut aenean pretium. Mollis magna hac amet maecenas mauris malesuada ornare.",
     },
 
     {
       imgSrc: card5,
-      text:
-        "Lorem built ipsum dolor sit amet. Eget vestibulum volutpat id nibh felis dignissim. Aliquet porta ultrices orci metus. Ut aenean pretium. Mollis magna hac amet maecenas mauris.",
+      text: "Lorem built ipsum dolor sit amet. Eget vestibulum volutpat id nibh felis dignissim. Aliquet porta ultrices orci metus. Ut aenean pretium. Mollis magna hac amet maecenas mauris.",
     },
   ];
 
