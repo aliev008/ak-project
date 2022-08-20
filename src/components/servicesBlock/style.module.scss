@@ -58,14 +58,6 @@
       color: #4343FF;
       font-family: 'GalanoGrotesque-Bold';
       text-align: bottom;
-
-      &:before {
-        content: url('../../assets/cards/Vector.svg');
-      }
-
-      &:after {
-        content: url('../../assets/cards/Vector-1.svg');
-      }
     }
   }
 }

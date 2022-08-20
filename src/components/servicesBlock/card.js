@@ -11,7 +11,7 @@ const Card = (props) => {
       </div>
       <div className={styles.services_block__button}>
         <a href="#main" target="_blank">
-          <p> Read More /</p>
+          <p> &lt; Read More / &gt;</p>
         </a>
       </div>
     </div>
