@@ -2,12 +2,13 @@
 @use "../../sass/modules/variables" as *;
 
 .banner_block {
+  max-width: toRem(1116);
   padding: 0 toRem(96);
   margin-top: toRem(72);
   color: white;
 }
 
-.banner__container {
+.container {
   padding: toRem(40) toRem(50) toRem(30) toRem(50);
   background-color: #0079C8;
   border-radius: toRem(4);
@@ -27,11 +28,11 @@
   }
 }
 
-.banner__text {
+.text {
   max-width: 57.5%;
 }
 
-.banner__btn {
+.btn {
   max-width: toRem(261);
   height: toRem(56);
   border: none;
@@ -60,19 +61,19 @@
     padding: 0 8.6%;
   }
 
-  .banner__container {
+  .container {
     padding: 4.3% 5%;
     background-color: #0079C8;
     border-radius: toRem(4);
     flex-direction: column;
   }
 
-  .banner__text {
+  .text {
     max-width: 100%;
     word-wrap: break-word;
   }
 
-  .banner__btn {
+  .btn {
     padding: 2.1% 4.3%;
   }
 }

@@ -8,7 +8,7 @@ import image3 from "../../assets/images/image_2-1.png";
 const ThreePicturesBlock = () => (
 
   <section className={styles.three_picture_block}>
-    <div className={styles.three_picture_block__header}>
+    <div className={styles.header}>
       <h3>This is a copy of 3 pictures module</h3>
       <p>
         Lotus root water spinach fennel kombu maize bamboo shoot green bean
@@ -17,12 +17,12 @@ const ThreePicturesBlock = () => (
         beetroot carrot watercress.
       </p>
     </div>
-    <div className={styles.three_picture_block__images}>
+    <div className={styles.images}>
       <img src={image1} alt="" />
       <img src={image2} alt="" />
       <img src={image3} alt="" />
     </div>
-    <div className={styles.three_picture_block__bottom}>
+    <div className={styles.bottom}>
       <h3>Best picks for woman collection</h3>
       <p>
         Lotus root water spinach fennel kombu maize bamboo shoot green bean

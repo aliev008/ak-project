@@ -2,11 +2,12 @@
 @use "../../sass/modules/variables" as *;
 
 .one_picture_block {
+  max-width: toRem(1116);
   display: flex;
   flex-wrap: wrap;
 }
 
-.one_picture_block__left {
+.left_side {
   max-width: toRem(344);
   min-height: toRem(198);
   margin: toRem(40) toRem(32) toRem(169) 0;
@@ -34,7 +35,7 @@
   }
 }
 
-.one_picture_block__left__text {
+.text {
   margin-bottom: toRem(15);
 
   h3 {
@@ -42,7 +43,7 @@
   }
 }
 
-.one_picture_block__right {
+.right_side {
   img {
     display: block;
     max-width: 100%;
@@ -54,13 +55,13 @@
     justify-content: center;
   }
 
-  .one_picture_block__left {
+  .left_side {
     max-width: toRem(548);
     padding: 0 3%;
     margin-bottom: 4em;
   }
 
-  .one_picture_block__right {
+  .right_side {
     padding: 0 3%;
   }
 
