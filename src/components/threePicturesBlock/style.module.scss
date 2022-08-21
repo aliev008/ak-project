@@ -11,7 +11,7 @@
   margin-top: toRem(72);
 }
 
-.three_picture_block__images {
+.images {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -31,11 +31,11 @@
   }
 }
 
-.three_picture_block__header {
+.header {
   width: 100%;
 }
 
-.three_picture_block__bottom {
+.bottom {
   margin-top: toRem(79.1)
 }
 

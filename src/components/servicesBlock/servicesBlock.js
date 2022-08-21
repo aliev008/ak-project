@@ -38,11 +38,11 @@ const ServicesBlock = () => {
 
   return (
     <section className={styles.services_block}>
-      <div className={styles.services_block__grid}>
+      <div className={styles.grid}>
         {cards.map((card, index) => (
           <Card
             key={index}
-            className={styles.services_block__card}
+            className={styles.card}
             imgSrc={card.imgSrc}
             text={card.text}
           />

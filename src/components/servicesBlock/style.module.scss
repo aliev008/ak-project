@@ -5,7 +5,7 @@
   margin-top: toRem(100);
 }
 
-.services_block__grid {
+.grid {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13,11 +13,11 @@
   gap: toRem(100);
 }
 
-.services_block__grid>* {
+.grid>* {
   flex: 1 1 33%;
 }
 
-.services_block__card {
+.card {
   max-width: toRem(343);
   margin-top: toRem(112);
 
@@ -27,7 +27,7 @@
     margin-bottom: toRem(42);
   }
 
-  .services_block__title {
+  .title {
     text-transform: uppercase;
     font-weight: 700;
     line-height: toRem(23);
@@ -45,7 +45,7 @@
     color: #5C5C5C;
   }
 
-  .services_block__button {
+  .button {
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
@@ -66,18 +66,17 @@ a {
   text-decoration: none;
 }
 
-
 @media (max-width: $screen-lg-min) {
 
   .services_block {
     padding: 0 8%;
   }
 
-  .service.services_block__grid {
+  .grid {
     gap: toRem(50);
   }
 
-  .services_block__card {
+  .card {
     margin-top: 5%;
 
     p {
@@ -85,14 +84,10 @@ a {
       min-width: toRem(343);
     }
   }
-
-
-
 }
 
 @media (max-width: $screen-sm-min) {
-
-  .services_block__card {
+  .card {
     p {
       min-width: unset;
     }

@@ -5,8 +5,8 @@ import image from "../../assets/images/image_1.png";
 
 const OnePictureBlock = () => (
   <section className={styles.one_picture_block}>
-    <div className={styles.one_picture_block__left}>
-      <div className={styles.one_picture_block__left__text}>
+    <div className={styles.left_side}>
+      <div className={styles.text}>
         <h3>Be surprised</h3>
         <p>
           Parsley shallot courgette tatsoi pea sprouts fava bean collard greens
@@ -15,7 +15,7 @@ const OnePictureBlock = () => (
       </div>
       <button>Discover now</button>
     </div>
-    <div className={styles.one_picture_block__right}>
+    <div className={styles.right_side}>
       <img src={image} alt="" />
     </div>
   </section>
